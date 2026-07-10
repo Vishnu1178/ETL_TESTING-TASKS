@@ -33,14 +33,16 @@ update product2 set Price = 1500 where ProductID = 103;
 delete from patient where PatientID=2;
 
 --5 School Management System
-   Remove all records from the table without deleting the table structure.
-   
-   trunacte table student;
+   -- Remove all records from the table without deleting the table structure.
+   -- Answer
+   Truncate table student;
    
 -- 6 Company Database  
-  Rename the Employee table to Staff.
-  
+ -- Rename the Employee table to Staff.
+ -- Answer
+     
   Rename table employee to staff;
+
 --7 Banking System
  Update Account No. 1002's balance to 35000 and permanently save the changes.
  Answer:
